@@ -1,0 +1,14 @@
+{
+  "name": "exempletdd",
+  "version": "1.0.0",
+  "description": "learning about unit tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape ./tests/*.js | tap-spec"
+  },
+  "author": "Monaliza Vitor",
+  "license": "ISC",
+  "dependencies": {
+    "tape": "^5.1.1"
+  }
+}
